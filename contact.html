@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="contact.css">
+    <title>contact</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        お問い合わせフォーム（課題）
+      </h1>
+    </header>
+
+    <article class="contact-wrapper">
+      <div class="contact-step">
+
+      </div>
+      <form class="contact-form" action="index.html" method="post">
+        <p>
+          お客さまからのご質問をお問い合わせフォームにて受け付けております。<br>必要事項をご記入の上、「入力内容の確認画面へ」を押してください。
+        </p>
+
+        <h2>
+          お問い合わせ内容を入力してください。
+        </h2>
+
+        <table>
+          <tr>
+            <th>
+              <p>お問い合わせ内容</p>
+            </th>
+            <td>
+              <textarea name="name" rows="8" cols="80" id="content"></textarea>
+            </td>
+          </tr>
+
+        </table>
+
+        <h2>
+          お客様情報を入力してください。
+        </h2>
+
+        <table>
+          <tr>
+            <th>お名前</th>
+            <td><input type="text" name="" value=""id="input_name"></td>
+          </tr>
+          <tr>
+            <th>メールアドレス</th>
+            <td><input type="text" name="" value=""id="input_mail"></td>
+          </tr>
+          <tr>
+            <th>電話番号</th>
+            <td><input type="text" name="" value=""id="input_phonenum"></td>
+          </tr>
+
+        </table>
+
+        <h2>
+          個人情報の取り扱いについて
+        </h2>
+        <p>
+        </p>
+        <div class="parsonal-information">
+          <textarea readonly name="name" rows="8" cols="80">
+            testtesttest
+          </textarea>
+          <div class="agree">
+            <input type="checkbox" name="" value="" class = "checkbox">
+            <span>
+              上記に合意する
+            </span>
+          </div>
+
+        </div>
+
+        <p class="readme">
+          [入力内容の確認画面へ] ボタンをクリックして入力内容のご確認をお願いします。<br>ご入力、誠にありがとうございました。
+        </p>
+        <p id="animation"></p>
+        <div class="button">
+          <input class="" type="button" name="" value="入力内容の確認画面へ">
+        </div>
+
+
+
+
+      </form>
+
+
+
+
+
+    </article>
+
+    <footer>
+      <p>copyright© Team ONE.</p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="contact.js"></script>
+  </body>
+</html>
